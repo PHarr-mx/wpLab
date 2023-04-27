@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df=pd.read_csv(r"./QDF_DWF_k_1_dim_100_acc_1e-06_time_scale_20230425test.csv")
+df=pd.read_csv(r"QDF/QDF_DWF_k_1_dim_100_acc_1e-06_time_scale_20230425test.csv")
 evolve=df.loc[0,'平均进化次数']
 interation=df.loc[0,'平均迭代次数']
 best_value=df.loc[0,'最优值']
